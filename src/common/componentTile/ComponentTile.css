@@ -3,4 +3,13 @@
     background-color: gray;
     text-align: center;
     padding: 0.7rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.sidebar_container{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
 }

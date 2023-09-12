@@ -1,15 +1,23 @@
 import React from "react";
 import "./ComponentTile.css";
-import { useNavigate } from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
+import { useComponent } from "../../componentContext/ComponentContext";
 export default function ComponentTile({ title, isSideBar }) {
-  const navigate = useNavigate();
+  const { setSelectedComponent } = useComponent();
+
   return (
-    <div
-      className={isSideBar ? "" : "tile_container"}
-      onClick={() => navigate(`/${title}`)}
+    <NavLink
+      to={`/${title}`}
+      className={isSideBar ? "sidebar_container" : "tile_container"}
+      onClick={() => setSelectedComponent(title)}
+      style={({ isActive, isPending }) => {
+        return {
+          fontWeight: isActive ? "bold" : "",
+          color: isPending ? "black" : "white",
+        };
+      }}
     >
       {title}
-    </div>
+    </NavLink>
   );
 }
