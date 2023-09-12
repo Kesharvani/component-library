@@ -13,10 +13,13 @@ export default function Component() {
     "Image",
   ];
   return (
-    <div>
-      {components.map((item) => {
-        return <ComponentTile title={item} />;
-      })}
+    <div className="component_tile_with_heading_container">
+      <h3 className="component_heading">All Components</h3>
+      <div className="component_tile_container">
+        {components.map((item) => {
+          return <ComponentTile title={item} />;
+        })}
+      </div>
     </div>
   );
 }

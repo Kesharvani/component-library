@@ -1,0 +1,6 @@
+.tile_container{
+    width: 25rem;
+    background-color: gray;
+    text-align: center;
+    padding: 0.7rem;
+}
