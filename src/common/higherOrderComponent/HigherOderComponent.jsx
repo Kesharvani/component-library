@@ -4,6 +4,14 @@ import { useComponent } from "../../componentContext/ComponentContext";
 import { dynamicHelper } from "../../helper/dynamicHelper";
 import ComponentTile from "../componentTile/ComponentTile";
 import { components } from "../../helper/dynamicHelper";
+import AvatarDoc from "../../documentation/AvatarDoc";
+import AlertDoc from "../../documentation/AlertDoc";
+import BadgeDoc from "../../documentation/BadgeDoc";
+import ButtonDoc from "../../documentation/ButtonDoc";
+import HeadingDoc from "../../documentation/HeadingDoc";
+import CardDoc from "../../documentation/CardDoc";
+import TextDoc from "../../documentation/TextDoc";
+import ImageDoc from "../../documentation/ImageDoc";
 export default function HigherOderComponent() {
   const { selectedComponent } = useComponent();
 
@@ -17,14 +25,14 @@ export default function HigherOderComponent() {
 
       {dynamicHelper(
         selectedComponent,
-        <div>this is Avtar</div>,
-        <div>this is alert</div>,
-        <div>this is badge</div>,
-        <div>this is Button</div>,
-        <div>this is Heading</div>,
-        <div>this is Card</div>,
-        <div>this is Text</div>,
-        <div>this is Image</div>
+        <AvatarDoc />,
+        <AlertDoc />,
+        <BadgeDoc />,
+        <ButtonDoc />,
+        <HeadingDoc />,
+        <CardDoc />,
+        <TextDoc />,
+        <ImageDoc />
       )}
     </div>
   );
