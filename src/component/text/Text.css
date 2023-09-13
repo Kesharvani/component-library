@@ -1,0 +1,26 @@
+.xl{
+    font-size: 1.25rem; 
+    line-height: 1.75rem;
+}
+.xl-italic{
+    font-size: 1.25rem; 
+    line-height: 1.75rem; 
+    font-style:italic
+}
+.large{
+    font-size: large;
+}
+.medium{
+    font-size: medium;
+}
+.medium-italic{
+    font-size: medium;
+    font-style: italic;
+}
+.small{
+    font-size: small;
+}
+.small-italic{
+    font-size: small;
+    font-style: italic;
+}

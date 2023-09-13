@@ -1,0 +1,25 @@
+.success {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background-color: green;
+  padding: 1rem;
+  width: 25%;
+}
+.error {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background-color: red;
+  padding: 1rem;
+  width: 25%;
+}
+.warning {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background-color: yellow;
+  padding: 1rem;
+  width: 25%;
+  color: black;
+}
