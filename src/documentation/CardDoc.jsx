@@ -17,8 +17,8 @@ const CardDoc = () => {
         background color to the card.
       </p>
       <div className="av-container">
-        <Card type="outlined" heading={"Autumn"}>
-          Autumn is wonderful.
+        <Card type="outlined" heading={"Fall"}>
+          Fall is wonderful.
         </Card>
         <Card type="elevated" heading={"Summer"}>
           Summer is for the beach.
@@ -30,8 +30,8 @@ const CardDoc = () => {
       <h2>Toggle cards: </h2>
       <p>Clicking on the cross will close the card.</p>
       <div className="av-container">
-        <ToggleCard type={"outlined"} heading={"Autumn"}>
-          Autumn, often referred to as the "season of mists and mellow
+        <ToggleCard type={"outlined"} heading={"Fall"}>
+          Fall, often referred to as the "season of mists and mellow
           fruitfulness," is a time of transition and natural splendor. As the
           long, lazy days of summer gradually yield to cooler temperatures, the
           world transforms into a breathtaking tapestry of colors.
@@ -54,37 +54,36 @@ const CardDoc = () => {
       </p>
       <div className="av-container">
         <OverlayCard
-          source={"https://i.postimg.cc/3wkvf0CR/vapor-three.jpg"}
+          source={"https://i.postimg.cc/V6Kx4kwY/autumn.png"}
           name="overlay-img"
-          overlayText={"Autumn"}
+          overlayText={"Fall"}
           type={"outlined"}
         >
-          {" "}
-          Autumn, often referred to as the "season of mists and mellow
+          Fall, often referred to as the "season of mists and mellow
           fruitfulness," is a time of transition and natural splendor. As the
           long, lazy days of summer gradually yield to cooler temperatures, the
           world transforms into a breathtaking tapestry of colors.
         </OverlayCard>
         <OverlayCard
-          source={"https://i.postimg.cc/3wkvf0CR/vapor-three.jpg"}
+          source={"https://i.postimg.cc/GpFrPR92/summer.jpg"}
           name="overlay-img"
-          overlayText={"Autumn"}
+          overlayText={"Fall"}
           type={"elevated"}
         >
           {" "}
-          Autumn, often referred to as the "season of mists and mellow
+          Fall, often referred to as the "season of mists and mellow
           fruitfulness," is a time of transition and natural splendor. As the
           long, lazy days of summer gradually yield to cooler temperatures, the
           world transforms into a breathtaking tapestry of colors.
         </OverlayCard>
         <OverlayCard
-          source={"https://i.postimg.cc/qRhb58yj/vapor-one.jpg"}
+          source={"https://i.postimg.cc/7LkrZRXy/winter.jpg"}
           name="overlay-img"
-          overlayText={"Autumn"}
+          overlayText={"Fall"}
           type={"filled"}
         >
           {" "}
-          Autumn, often referred to as the "season of mists and mellow
+          Fall, often referred to as the "season of mists and mellow
           fruitfulness," is a time of transition and natural splendor. As the
           long, lazy days of summer gradually yield to cooler temperatures, the
           world transforms into a breathtaking tapestry of colors.
@@ -97,7 +96,7 @@ const CardDoc = () => {
           source={"https://i.postimg.cc/3wkvf0CR/vapor-three.jpg"}
           name="overlay-img"
         >
-          Autumn, often referred to as the "season of mists and mellow
+          Fall, often referred to as the "season of mists and mellow
           fruitfulness," is a time of transition and natural splendor. As the
           long, lazy days of summer gradually yield to cooler temperatures, the
           world transforms into a breathtaking tapestry of colors.
