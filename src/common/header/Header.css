@@ -15,6 +15,7 @@
 }
 .logo{
     text-decoration: none;
+    color: #64CCC5;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,8 +1,8 @@
 .outlined-btn {
-    border: 1px solid var(--dark-primary);
-    color: var(--dark-primary);
+    border: 1px solid white;
+    color: white;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
@@ -17,14 +17,14 @@
 
 .outlined-btn:hover{
     cursor: pointer;
-    background: var(--primary-btn);
+    background: #176B87;
 }
 
 .elevated-btn{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: none;
-    color: var(--dark-primary);
-    border-radius: 30px;
+    color: white;
+    border-radius: 10px;
     padding: 10px;
     font-size: 18px;
     text-align: center;
@@ -41,15 +41,15 @@
 .elevated-btn:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
     cursor: pointer;
-    color: var(--secondary-color);
+    color: white;
 }
 
 .filled-btn{
     border: none;
     outline: none;
-    background: var(--dark-secondary);
+    background: #176B87;
     color: var(--accent-color);
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px;
     font-size: 18px;
     text-align: center;
@@ -65,7 +65,7 @@
 
 .filled-btn:hover{
     cursor: pointer;
-    background: var(--secondary-color);
+    background: #176B87;
 }
 
 .icon-btn{
@@ -79,8 +79,8 @@
     border: none;
     display: flex;
     align-items: center;
-    background: var(--dark-primary);
-    color: var(--accent-color);
+    background: #176B87;
+    color: white;
     border-radius: 50%;
     padding: 15px;
     min-width: 50px;
@@ -90,5 +90,5 @@
 
 .fab-btn:hover{
     cursor: pointer;
-    background: var(--secondary-color);
+    background: #176B87;
 }

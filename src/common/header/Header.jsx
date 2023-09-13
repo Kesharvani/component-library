@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="header">
       <Link to="/" className="logo">
-        <h3>SS Library</h3>
+        <h3>Component Craft</h3>
       </Link>
       <input type="search" placeholder="Search for components" />
 
@@ -15,7 +15,7 @@ export default function Header() {
           style={({ isActive, isPending }) => {
             return {
               fontWeight: isActive ? "bold" : "",
-              color: isPending ? "black" : "red",
+              color: isPending ? "black" : "#64CCC5",
             };
           }}
           className="navLink"
@@ -27,7 +27,7 @@ export default function Header() {
           style={({ isActive, isPending }) => {
             return {
               fontWeight: isActive ? "bold" : "",
-              color: isPending ? "black" : "red",
+              color: isPending ? "black" : "#64CCC5",
             };
           }}
           className="navLink"

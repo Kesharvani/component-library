@@ -7,7 +7,7 @@ export default function Home() {
   const navigate = useNavigate();
   return (
     <div className="home_container">
-      <h1>Your Unique Component Library</h1>
+      <h1>Component Craft</h1>
       <p>A collection of innovative components for modern web development</p>
       <div className="secondary_container">
         <button

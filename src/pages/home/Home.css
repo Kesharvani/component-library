@@ -6,8 +6,8 @@
     text-align: center;
 }
 .get_started_btn{
-    color: white;
-    background-color: brown;
+    color: black;
+    background-color: #48cae4;
     border-radius: 0.4rem;
     padding: 0.6rem 0.8rem;
     border: none;
